@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933E0F531925F0C50084319F /* TGMoreButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F521925F0C50084319F /* TGMoreButton.m */; };
+		933E0F561925F2440084319F /* TGDock.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F551925F2440084319F /* TGDock.m */; };
+		933E0F591925FC8F0084319F /* TGLocationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F581925FC8F0084319F /* TGLocationButton.m */; };
+		933E0F5C1925FEBB0084319F /* TGTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F5B1925FEBB0084319F /* TGTabButton.m */; };
+		933E0F5F19261E6C0084319F /* TGCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F5E19261E6C0084319F /* TGCollectViewController.m */; };
+		933E0F6219261E7B0084319F /* TGDealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F6119261E7B0084319F /* TGDealViewController.m */; };
+		933E0F6519261EA30084319F /* TGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F6419261EA30084319F /* TGMapViewController.m */; };
+		933E0F6819261EB10084319F /* TGMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0F6719261EB10084319F /* TGMineViewController.m */; };
 		93C64FF91925A5AC000FAF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C64FF81925A5AC000FAF6A /* Foundation.framework */; };
 		93C64FFB1925A5AC000FAF6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C64FFA1925A5AC000FAF6A /* CoreGraphics.framework */; };
 		93C64FFD1925A5AC000FAF6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C64FFC1925A5AC000FAF6A /* UIKit.framework */; };
 		93C650031925A5AC000FAF6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93C650011925A5AC000FAF6A /* InfoPlist.strings */; };
-		93C650051925A5AC000FAF6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C650041925A5AC000FAF6A /* main.m */; };
-		93C650091925A5AC000FAF6A /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C650081925A5AC000FAF6A /* TGAppDelegate.m */; };
 		93C6500B1925A5AC000FAF6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C6500A1925A5AC000FAF6A /* Images.xcassets */; };
 		93C650121925A5AC000FAF6A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C650111925A5AC000FAF6A /* XCTest.framework */; };
 		93C650131925A5AC000FAF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C64FF81925A5AC000FAF6A /* Foundation.framework */; };
 		93C650141925A5AC000FAF6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C64FFC1925A5AC000FAF6A /* UIKit.framework */; };
 		93C6501C1925A5AC000FAF6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93C6501A1925A5AC000FAF6A /* InfoPlist.strings */; };
 		93C6501E1925A5AC000FAF6A /* ITuanGouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C6501D1925A5AC000FAF6A /* ITuanGouTests.m */; };
+		93C650441925A956000FAF6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C6503F1925A956000FAF6A /* main.m */; };
+		93C650451925A956000FAF6A /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C650421925A956000FAF6A /* TGAppDelegate.m */; };
+		93C650481925A9E1000FAF6A /* TGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C650471925A9E1000FAF6A /* TGMainViewController.m */; };
+		93C6504B1925AB3E000FAF6A /* TGDuckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C6504A1925AB3E000FAF6A /* TGDuckButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		933E0F511925F0C50084319F /* TGMoreButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMoreButton.h; sourceTree = "<group>"; };
+		933E0F521925F0C50084319F /* TGMoreButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMoreButton.m; sourceTree = "<group>"; };
+		933E0F541925F2440084319F /* TGDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDock.h; sourceTree = "<group>"; };
+		933E0F551925F2440084319F /* TGDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDock.m; sourceTree = "<group>"; };
+		933E0F571925FC8F0084319F /* TGLocationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLocationButton.h; sourceTree = "<group>"; };
+		933E0F581925FC8F0084319F /* TGLocationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGLocationButton.m; sourceTree = "<group>"; };
+		933E0F5A1925FEBB0084319F /* TGTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTabButton.h; sourceTree = "<group>"; };
+		933E0F5B1925FEBB0084319F /* TGTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTabButton.m; sourceTree = "<group>"; };
+		933E0F5D19261E6C0084319F /* TGCollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCollectViewController.h; sourceTree = "<group>"; };
+		933E0F5E19261E6C0084319F /* TGCollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCollectViewController.m; sourceTree = "<group>"; };
+		933E0F6019261E7B0084319F /* TGDealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDealViewController.h; sourceTree = "<group>"; };
+		933E0F6119261E7B0084319F /* TGDealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDealViewController.m; sourceTree = "<group>"; };
+		933E0F6319261EA30084319F /* TGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMapViewController.h; sourceTree = "<group>"; };
+		933E0F6419261EA30084319F /* TGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMapViewController.m; sourceTree = "<group>"; };
+		933E0F6619261EB10084319F /* TGMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMineViewController.h; sourceTree = "<group>"; };
+		933E0F6719261EB10084319F /* TGMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMineViewController.m; sourceTree = "<group>"; };
 		93C64FF51925A5AC000FAF6A /* ITuanGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITuanGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C64FF81925A5AC000FAF6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93C64FFA1925A5AC000FAF6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		93C64FFC1925A5AC000FAF6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93C650001925A5AC000FAF6A /* ITuanGou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITuanGou-Info.plist"; sourceTree = "<group>"; };
 		93C650021925A5AC000FAF6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93C650041925A5AC000FAF6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93C650061925A5AC000FAF6A /* ITuanGou-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ITuanGou-Prefix.pch"; sourceTree = "<group>"; };
-		93C650071925A5AC000FAF6A /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
-		93C650081925A5AC000FAF6A /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
 		93C6500A1925A5AC000FAF6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		93C650101925A5AC000FAF6A /* ITuanGouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITuanGouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C650111925A5AC000FAF6A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		93C650191925A5AC000FAF6A /* ITuanGouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITuanGouTests-Info.plist"; sourceTree = "<group>"; };
 		93C6501B1925A5AC000FAF6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93C6501D1925A5AC000FAF6A /* ITuanGouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITuanGouTests.m; sourceTree = "<group>"; };
+		93C6503E1925A956000FAF6A /* ITuanGou-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ITuanGou-Prefix.pch"; sourceTree = "<group>"; };
+		93C6503F1925A956000FAF6A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93C650411925A956000FAF6A /* TGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		93C650421925A956000FAF6A /* TGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		93C650461925A9E1000FAF6A /* TGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMainViewController.h; sourceTree = "<group>"; };
+		93C650471925A9E1000FAF6A /* TGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMainViewController.m; sourceTree = "<group>"; };
+		93C650491925AB3E000FAF6A /* TGDuckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDuckButton.h; sourceTree = "<group>"; };
+		93C6504A1925AB3E000FAF6A /* TGDuckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDuckButton.m; sourceTree = "<group>"; };
+		93C6504C1925AE79000FAF6A /* ITGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITGCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +138,7 @@
 		93C64FFE1925A5AC000FAF6A /* ITuanGou */ = {
 			isa = PBXGroup;
 			children = (
-				93C650071925A5AC000FAF6A /* TGAppDelegate.h */,
-				93C650081925A5AC000FAF6A /* TGAppDelegate.m */,
-				93C6500A1925A5AC000FAF6A /* Images.xcassets */,
+				93C650271925A956000FAF6A /* Classes */,
 				93C64FFF1925A5AC000FAF6A /* Supporting Files */,
 			);
 			path = ITuanGou;
@@ -118,10 +147,9 @@
 		93C64FFF1925A5AC000FAF6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				93C6500A1925A5AC000FAF6A /* Images.xcassets */,
 				93C650001925A5AC000FAF6A /* ITuanGou-Info.plist */,
 				93C650011925A5AC000FAF6A /* InfoPlist.strings */,
-				93C650041925A5AC000FAF6A /* main.m */,
-				93C650061925A5AC000FAF6A /* ITuanGou-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +170,206 @@
 				93C6501A1925A5AC000FAF6A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93C650271925A956000FAF6A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93C650281925A956000FAF6A /* Collect */,
+				93C6502C1925A956000FAF6A /* Deal */,
+				93C650301925A956000FAF6A /* Main */,
+				93C650341925A956000FAF6A /* Map */,
+				93C650381925A956000FAF6A /* Mine */,
+				93C6503C1925A956000FAF6A /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		93C650281925A956000FAF6A /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				93C650291925A956000FAF6A /* Controller */,
+				93C6502A1925A956000FAF6A /* Model */,
+				93C6502B1925A956000FAF6A /* View */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		93C650291925A956000FAF6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				933E0F5D19261E6C0084319F /* TGCollectViewController.h */,
+				933E0F5E19261E6C0084319F /* TGCollectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C6502A1925A956000FAF6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C6502B1925A956000FAF6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C6502C1925A956000FAF6A /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				93C6502D1925A956000FAF6A /* Controller */,
+				93C6502E1925A956000FAF6A /* Model */,
+				93C6502F1925A956000FAF6A /* View */,
+			);
+			path = Deal;
+			sourceTree = "<group>";
+		};
+		93C6502D1925A956000FAF6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				933E0F6019261E7B0084319F /* TGDealViewController.h */,
+				933E0F6119261E7B0084319F /* TGDealViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C6502E1925A956000FAF6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C6502F1925A956000FAF6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C650301925A956000FAF6A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				93C650311925A956000FAF6A /* Controller */,
+				93C650321925A956000FAF6A /* Model */,
+				93C650331925A956000FAF6A /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		93C650311925A956000FAF6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93C650461925A9E1000FAF6A /* TGMainViewController.h */,
+				93C650471925A9E1000FAF6A /* TGMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C650321925A956000FAF6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C650331925A956000FAF6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				933E0F571925FC8F0084319F /* TGLocationButton.h */,
+				933E0F581925FC8F0084319F /* TGLocationButton.m */,
+				93C650491925AB3E000FAF6A /* TGDuckButton.h */,
+				93C6504A1925AB3E000FAF6A /* TGDuckButton.m */,
+				933E0F511925F0C50084319F /* TGMoreButton.h */,
+				933E0F521925F0C50084319F /* TGMoreButton.m */,
+				933E0F541925F2440084319F /* TGDock.h */,
+				933E0F551925F2440084319F /* TGDock.m */,
+				933E0F5A1925FEBB0084319F /* TGTabButton.h */,
+				933E0F5B1925FEBB0084319F /* TGTabButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C650341925A956000FAF6A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				93C650351925A956000FAF6A /* Controller */,
+				93C650361925A956000FAF6A /* Model */,
+				93C650371925A956000FAF6A /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		93C650351925A956000FAF6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				933E0F6319261EA30084319F /* TGMapViewController.h */,
+				933E0F6419261EA30084319F /* TGMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C650361925A956000FAF6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C650371925A956000FAF6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C650381925A956000FAF6A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				93C650391925A956000FAF6A /* Controller */,
+				93C6503A1925A956000FAF6A /* Model */,
+				93C6503B1925A956000FAF6A /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		93C650391925A956000FAF6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				933E0F6619261EB10084319F /* TGMineViewController.h */,
+				933E0F6719261EB10084319F /* TGMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		93C6503A1925A956000FAF6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C6503B1925A956000FAF6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C6503C1925A956000FAF6A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				93C6503E1925A956000FAF6A /* ITuanGou-Prefix.pch */,
+				93C6503F1925A956000FAF6A /* main.m */,
+				93C650411925A956000FAF6A /* TGAppDelegate.h */,
+				93C650421925A956000FAF6A /* TGAppDelegate.m */,
+				93C6504C1925AE79000FAF6A /* ITGCommon.h */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +468,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C650051925A5AC000FAF6A /* main.m in Sources */,
-				93C650091925A5AC000FAF6A /* TGAppDelegate.m in Sources */,
+				933E0F5F19261E6C0084319F /* TGCollectViewController.m in Sources */,
+				93C650441925A956000FAF6A /* main.m in Sources */,
+				93C650451925A956000FAF6A /* TGAppDelegate.m in Sources */,
+				933E0F6519261EA30084319F /* TGMapViewController.m in Sources */,
+				93C650481925A9E1000FAF6A /* TGMainViewController.m in Sources */,
+				933E0F591925FC8F0084319F /* TGLocationButton.m in Sources */,
+				933E0F561925F2440084319F /* TGDock.m in Sources */,
+				933E0F531925F0C50084319F /* TGMoreButton.m in Sources */,
+				933E0F6819261EB10084319F /* TGMineViewController.m in Sources */,
+				933E0F6219261E7B0084319F /* TGDealViewController.m in Sources */,
+				933E0F5C1925FEBB0084319F /* TGTabButton.m in Sources */,
+				93C6504B1925AB3E000FAF6A /* TGDuckButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +601,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ITuanGou/ITuanGou-Prefix.pch";
+				GCC_PREFIX_HEADER = "ITuanGou/Classes/Other/ITuanGou-Prefix.pch";
 				INFOPLIST_FILE = "ITuanGou/ITuanGou-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -376,7 +614,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ITuanGou/ITuanGou-Prefix.pch";
+				GCC_PREFIX_HEADER = "ITuanGou/Classes/Other/ITuanGou-Prefix.pch";
 				INFOPLIST_FILE = "ITuanGou/ITuanGou-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -444,6 +682,7 @@
 				93C650231925A5AC000FAF6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93C650241925A5AC000FAF6A /* Build configuration list for PBXNativeTarget "ITuanGouTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +691,7 @@
 				93C650261925A5AC000FAF6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
